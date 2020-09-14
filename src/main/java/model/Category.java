@@ -1,12 +1,13 @@
-package main.java;
+package main.java.model;
 
 /**
- * @author Nilay Dhamecha (dhamecha@arezzosky.com)
+ * @author Nilay Dhamecha
+ * This enum determines the tax category of a product.
  */
 public enum Category {
-    CATEGORY_A("10"),
-    CATEGORY_B("20"),
-    CATEGORY_C("0");
+    A("10"),
+    B("20"),
+    C("0");
 
     private final String tax;
 

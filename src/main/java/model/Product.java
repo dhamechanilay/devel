@@ -1,9 +1,10 @@
-package main.java;
+package main.java.model;
 
 import java.util.Objects;
 
 /**
- * @author Nilay Dhamecha (dhamecha@arezzosky.com)
+ * @author Nilay Dhamecha
+ * Model calss for a product in the retail shop.
  */
 public class Product {
     private String productId;
