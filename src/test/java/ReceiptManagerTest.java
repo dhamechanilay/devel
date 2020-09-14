@@ -57,6 +57,11 @@ public class ReceiptManagerTest {
 
     private void assertProducts(List<Item> addedProducts, List<Product> products) {
         Assert.assertEquals(addedProducts.size(), products.size());
+        Assert.assertEquals(addedProducts.get(0).getProduct(), products.get(0));
+        Assert.assertEquals(addedProducts.get(1).getProduct(), products.get(1));
+        Assert.assertEquals(addedProducts.get(2).getProduct(), products.get(2));
+        Assert.assertEquals(addedProducts.get(3).getProduct(), products.get(3));
+
     }
 
 }
